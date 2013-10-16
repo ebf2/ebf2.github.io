@@ -1,35 +1,64 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: Garamond, sans-serif;
 	width: 700px;
-	margin: 50px auto;
+	margin: auto;
+
 }
 
-header,
-nav,
+
+header {
+text-align: center;
+font-size: 150%;
+
+}
+
 footer
 {
 	text-align: center;
+	bottom:0px;
+	position:fixed;
+	float:center;
+	width:50%;
+	background-color: white;
 }
 
-nav {
-	display: block;
-	float:left;
-	width: 250px;
-	background: #eee;
-}
 
-nav a {
-	display: block;
-}
 
 #content
 {
-	float: right;
-	width: 400px;
-	
-	background: #aaa;
+	vertical-align: center;
+	text-align: center;
+	clear:both;
+	margin-bottom: 25%;
+
 }
 
-footer {
-	clear: both;
+h2{
+	font-size: 200%	
+}
+
+ul{
+	text-align: left;
+}
+
+p {
+	text-align: left;
+}
+
+
+#contact
+{
+display: block;
+text-align: left;
+float:left;
+width:40%;
+
+}
+
+#contact2
+{
+display: block;
+text-align: left;
+float: right;
+width: 20%
 }
